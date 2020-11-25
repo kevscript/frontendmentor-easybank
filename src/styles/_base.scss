@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+/* primary colors */
+$blue: hsl(233, 26%, 24%);
+$green: hsl(136, 65%, 51%);
+$cyan: hsl(192, 70%, 51%);
+
+/* secondary colors */
+$grey-dark: hsl(233, 8%, 62%);
+$grey: hsl(220, 16%, 96%);
+$grey-light: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+/* typography */
+$font-base-size: 18px;
+$font-family: 'Public Sans', sans-serif;
+$fw-thin: 300;
+$fw-bold: 700;
+
+html {
+  font-size: $font-base-size;
+  font-family: $font-family;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
