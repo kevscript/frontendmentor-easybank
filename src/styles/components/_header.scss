@@ -14,6 +14,26 @@
   cursor: pointer;
 }
 
+.header--nav {
+  display: none;
+
+  .header--nav--item {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+    color: $grey-dark;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.header--cta {
+  display: none;
+}
+
 .burger {
   background: transparent;
   box-shadow: 0px 0px 0px transparent;
@@ -82,5 +102,24 @@
         border-bottom: 1px solid $grey;
       }
     }
+  }
+}
+
+@media (min-width: $bp-desktop) {
+  .header {
+    height: 107px;
+    padding: 0 10%;
+  }
+
+  .header--nav {
+    display: flex;
+  }
+
+  .header--cta {
+    display: block;
+  }
+
+  .burger {
+    display: none;
   }
 }
