@@ -20,6 +20,10 @@ $fw-bold: 700;
 html {
   font-size: $font-base-size;
   font-family: $font-family;
+
+  @media (min-width: $bp-desktop) {
+    font-size: 18px;
+  }
 }
 
 body {
@@ -52,4 +56,8 @@ p {
   color: $grey-dark;
   line-height: 1.6;
   font-weight: 400;
+
+  @media (min-width: $bp-desktop) {
+    max-width: 450px;
+  }
 }
