@@ -10,11 +10,6 @@
     text-align: center;
   }
 
-  .why--subtitle {
-    margin: 1rem 0;
-    text-align: center;
-  }
-
   .why--answer {
     text-align: center;
   }
@@ -24,6 +19,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .why--subtitle {
+      margin: 1rem 0;
+    }
   }
 
   .why--item:first-of-type {
@@ -32,5 +31,52 @@
 
   .why--item:last-of-type {
     padding: 32px 0 0;
+  }
+}
+
+@media (min-width: $bp-desktop) {
+  .why {
+    align-items: flex-start;
+
+    .why--title {
+      max-width: 100%;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .why--answer {
+      text-align: left;
+    }
+
+    .why--answer:first-of-type {
+      max-width: 650px;
+    }
+
+    .why--items {
+      width: 100%;
+      padding-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .why--item {
+      padding: 2rem 0;
+      align-items: flex-start;
+      width: 330px;
+
+      .why--subtitle {
+        margin: 1.5rem 0;
+      }
+    }
+
+    .why--item:first-of-type {
+      padding: 0;
+    }
+
+    .why--item:last-of-type {
+      padding: 0;
+    }
   }
 }
