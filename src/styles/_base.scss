@@ -12,7 +12,7 @@ $grey-light: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 
 /* typography */
-$font-base-size: 18px;
+$font-base-size: 15px;
 $font-family: 'Public Sans', sans-serif;
 $fw-thin: 300;
 $fw-bold: 700;
@@ -26,4 +26,18 @@ body {
   width: 100%;
   overflow-x: hidden;
   min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.7rem;
+  color: $blue;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+p {
+  max-width: 320px;
+  color: $grey-dark;
+  line-height: 1.6;
+  font-weight: 400;
 }

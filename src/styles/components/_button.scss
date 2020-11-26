@@ -1,0 +1,14 @@
+.button-primary {
+  background: rgb(49, 211, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 211, 92, 1) 0%,
+    rgba(43, 183, 218, 1) 100%
+  );
+  border-radius: 50px;
+  color: $white;
+  font-weight: $fw-bold;
+  height: 46px;
+  min-width: 163px;
+  border: none;
+}
