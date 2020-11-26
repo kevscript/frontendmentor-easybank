@@ -1,1 +1,9 @@
 $mobile-padding: 24px;
+
+/* add padding to sections, only bottom padding on first section */
+section:not(:first-of-type) {
+  padding: 64px $mobile-padding;
+}
+section:first-of-type {
+  padding: 0 $mobile-padding 64px;
+}

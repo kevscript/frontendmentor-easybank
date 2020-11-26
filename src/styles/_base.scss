@@ -35,6 +35,18 @@ h1 {
   letter-spacing: -1px;
 }
 
+h2 {
+  font-size: 2rem;
+  color: $blue;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: $blue;
+  line-height: 1.2;
+}
+
 p {
   max-width: 320px;
   color: $grey-dark;
