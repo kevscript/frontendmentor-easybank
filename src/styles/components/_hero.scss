@@ -1,0 +1,28 @@
+.hero {
+  position: relative;
+  width: 100%;
+
+  .hero-background {
+    display: block;
+    position: absolute;
+    z-index: -99;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-mockups-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-13%);
+    padding: 0 $mobile-padding;
+
+    .hero-mockups {
+      display: block;
+      width: 100%;
+      max-width: 767px;
+      height: auto;
+    }
+  }
+}
