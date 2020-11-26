@@ -8,6 +8,7 @@
     z-index: -99;
     width: 100%;
     height: auto;
+    left: 0;
   }
 
   .hero-mockups-container {
@@ -15,7 +16,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    transform: translateY(-13%);
+    transform: translateY(-8%);
     padding: 0 $mobile-padding;
 
     .hero-mockups {
@@ -27,6 +28,7 @@
   }
 
   .hero--content {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
