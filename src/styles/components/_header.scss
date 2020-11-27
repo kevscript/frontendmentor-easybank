@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 $mobile-padding;
+  box-shadow: 0 4px 3px -2px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -17,16 +18,24 @@
 
 .header--nav {
   display: none;
+  height: 107px;
 
   .header--nav--item {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     padding: 10px;
     margin: 0 10px;
     color: $grey-dark;
+    height: 100%;
+    border-bottom: 5px solid transparent;
+    transition: 0.3s all linear;
 
     &:hover {
       color: $blue;
+      border-bottom: 5px solid $grey-dark;
     }
   }
 }
@@ -114,6 +123,7 @@
 
   .header--nav {
     display: flex;
+    align-items: center;
   }
 
   .header--cta {

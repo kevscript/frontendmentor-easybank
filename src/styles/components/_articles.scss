@@ -9,6 +9,10 @@
     margin-bottom: 2rem;
   }
 
+  .articles--list {
+    width: 100%;
+  }
+
   .article {
     width: 100%;
     max-width: 400px;
@@ -71,6 +75,16 @@
       .article {
         max-width: 340px;
         margin-bottom: 2rem;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+            0 10px 10px rgba(0, 0, 0, 0.22);
+
+          .article--subtitle {
+            color: $cyan;
+          }
+        }
       }
     }
   }
